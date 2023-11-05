@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background: linear-gradient(90deg, #000000, #006400);
+        }
+
+        form {
+            text-align: center;
+            border: 1px solid #ccc;
+            padding: 20px;
+            width: 300px;
+            background-color: #f2f2f2;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        input {
+            margin: 10px 0;
+            padding: 10px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        label {
+            text-align: left;
+            display: block;
+        }
+
+        h1 {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <form action="process_login.php" method="post">
+        <h1>Login</h1>
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required><br><br>
+        
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <a href="Mainpage_Webpro.html">
+            <input type="submit" value="Login">
+        </a>
+       
+
+    </form>
+</body>
+</html>
+
